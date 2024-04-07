@@ -40,6 +40,7 @@ tree-sitter-c = "scm"
 tree-sitter-python = "scm"
 tree-sitter-go = "scm"
 "nightfox.nvim" = "3.9.3"
+rose-pine = "3.0.1"
 
 [config]
 plugins_dir = "plugins/"
