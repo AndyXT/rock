@@ -39,6 +39,7 @@ tree-sitter-lua = "scm"
 tree-sitter-c = "scm"
 tree-sitter-python = "scm"
 tree-sitter-go = "scm"
+"nightfox.nvim" = "3.9.3"
 
 [config]
 plugins_dir = "plugins/"
