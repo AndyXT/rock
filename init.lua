@@ -1,8 +1,8 @@
 local rocks_config = {
-    rocks_path = "/home/atreto/.local/share/rock/rocks",
-    luarocks_binary = "/home/atreto/.local/share/rock/rocks/bin/luarocks",
-    -- rocks_path = vim.fn.stdpath("data") .. "/" .. os.getenv("NVIM_APPNAME") .. "/rocks",
-    -- luarocks_binary = "luarocks",
+    -- rocks_path = "/home/atreto/.local/share/rock/rocks",
+    -- luarocks_binary = "/home/atreto/.local/share/rock/rocks/bin/luarocks",
+    rocks_path = vim.fn.stdpath("data") .. "/rocks",
+    luarocks_binary = vim.fn.stdpath("data") .. "/rocks/bin/luarocks",
 }
 
 vim.g.rocks_nvim = rocks_config
