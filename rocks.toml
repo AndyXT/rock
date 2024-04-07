@@ -35,6 +35,7 @@ nvim-lspconfig = "0.1.7"
 "fidget.nvim" = "1.1.0"
 nvim-web-devicons = "0.99"
 "tokyonight.nvim" = "3.0.1"
+tree-sitter-lua = "scm"
 
 [config]
 plugins_dir = "plugins/"
