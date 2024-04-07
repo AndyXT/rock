@@ -21,7 +21,8 @@
 "diffview.nvim" = { git = "sindrets/diffview.nvim" }
 "fzf" = { git = "junegunn/fzf" }
 "fzf.vim" = { git = "junegunn/fzf.vim" }
-"vim-bqf" = { git = "kevinhwang91/nvim-bqf" }
+"nvim-bqf" = { git = "kevinhwang91/nvim-bqf" }
+"nvim-pqf" = { git = "yorickpeterse/nvim-pqf"}
 nvim-treesitter = "0.9.2"
 "lsp-zero.nvim" = { git = "VonHeikemen/lsp-zero.nvim" }
 nvim-lspconfig = "0.1.7"
