@@ -11,6 +11,7 @@ require("mini.pairs").setup()
 require("mini.indentscope").setup()
 require("mini.tabline").setup()
 require("mini.bracketed").setup()
+require("mini.visits").setup()
 
 vim.keymap.set('n', '<leader>.', function() MiniFiles.open(vim.api.nvim_buf_get_name(0), false) end, { desc = "files CWD"})
 vim.keymap.set('n', '<leader>gd', function() MiniDiff.toggle_overlay(0) end, { desc = "toggle Git Diff Overlay"})
